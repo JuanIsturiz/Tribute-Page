@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  padding: 0.5rem;
+}
+
+.container {
+  width: 100%;
+  margin: 1.5rem auto;
+  background-color: rgb(235, 235, 235);
+  border-radius: 0.25rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+#title {
+  font-size: 2.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#description {
+  margin-bottom: 1rem;
+}
+
+#img-div {
+  max-width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#img-div img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  margin: 3.55rem 0;
+}
+
+.time-line {
+  text-align: start;
+  max-width: 38rem;
+  margin: 0 auto;
+}
+
+.time-line span {
+  font-weight: 700;
+}
+
+.time-line ul {
+  padding-left: 2rem;
+}
+
+.time-line li {
+  line-height: 1.75rem;
+  margin: 0.85rem 0;
+}
+
+.quote p:nth-child(1) {
+  line-height: 1.6;
+  margin: 2.5rem 0 1.25rem 0;
+}
+
+.quote * {
+  font-style: italic;
+}
+
+#footer {
+  margin: 3.5rem 0 1.25rem 0;
+}
+
+#title,
+#tribute-info,
+#footer {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+  #img-div img {
+    width: 100%;
+  }
+}
